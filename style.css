@@ -1,0 +1,111 @@
+.works,
+.works2,
+.works3,
+.works4 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  transition: background-color 0.4s, color 0.4s, transform 0.2s;
+
+}
+.works:hover,
+.works3:hover,
+.works2:hover,
+.suzukilogo:hover{
+   box-shadow: 0 4px 10px rgba(255, 0, 0, 0.5);
+   animation: bounce 0.8s infinite alternate;
+   transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 500px) {
+  .reponsive{
+    padding: 0px 20px;
+  }
+}
+  
+
+@keyframes bounce {
+  0% {transform: translate(0px);}
+  100% {transform: translate(-15px);}
+}
+
+
+
+.Banner{
+  width: cover;
+  background-color: rgba(20, 22, 43, 0.986);
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.di-banner{
+  width: auto;
+  display:block;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  background-color: rgba(20, 22, 43, 0.986);
+  border-radius: 20px;
+}
+.Banner1{
+  width: cover;
+  background-color: rgba(49, 51, 73, 0.986);
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.showroom1{
+  width: auto;
+  display:inline-block;
+  margin: auto;
+  width: 45%;
+  padding: 10px;
+  background-color: rgba(20, 22, 43, 0.986);
+  border-radius: 20px;
+  vertical-align: top;
+  margin-right: 15px;
+  margin-bottom: 15px;
+
+}
+
+.popmod,
+.popmod2,
+.popmod3,
+.benefit1,
+.benefit2,
+.benefit3,
+.benefit4{
+  width: auto;
+  display:inline-block;
+  width: 300px;
+  padding: 10px;
+  background-color: rgba(20, 22, 43, 0.986);
+  border-radius: 20px;
+  vertical-align: top;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 15px;
+}
+
+
+h1,h2,h3,.p1{
+  text-align: center;
+}
+
+.maindiv,
+.maindiv2{
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+ 
+}
+
+.maindiv{
+  margin-right: 30px;
+}
+.page-div2{
+   margin-top: 2px;
+}
+
+
